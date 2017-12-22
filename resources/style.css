@@ -466,3 +466,15 @@ footer {
     display: none;
   }
 }
+
+.bold {
+  font-weight: bold;
+}
+
+.light {
+  color: rgb(200, 200, 200);
+}
+
+.grey-background {
+  background-color: rgb(200, 200, 200);
+}
