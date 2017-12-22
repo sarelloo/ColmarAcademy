@@ -132,3 +132,64 @@ nav.mobile  {
     height: 2rem;
   }
 }
+
+/* Banner section */
+.banner .image-container {
+  flex: 3;
+}
+
+.banner .content {
+  flex: 2;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 1rem;
+  margin: 0.5rem 0;
+}
+
+.banner h1 {
+  margin-bottom: 1rem;
+}
+
+.banner p {
+  margin: 0.75rem 0;
+  width: 70%;
+}
+
+.banner .button {
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-bottom: 1.5rem;
+  background-color: rgb(70, 70, 70);
+}
+
+#start {
+  font-size: 1.5rem;
+}
+
+.banner .button:hover, nav span:hover {
+  background-color: rgb(200, 200, 200);
+  color: rgb(70, 70, 70);
+  transition: 300ms 100ms;
+  cursor: pointer;
+}
+
+.banner .button:active, nav span:active {
+  background-color: rgb(70, 70, 70);
+  transition: 200ms;
+}
+
+@media only screen and (max-width: 650px) {
+
+  .banner .image-container {
+    display: none;
+  }
+
+  .banner .content {
+    padding: 0 1rem;
+    width: calc(100% - 2rem);
+  }
+
+  .banner .button {
+    max-width: 275px;
+  }
+}
