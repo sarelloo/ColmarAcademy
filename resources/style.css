@@ -402,3 +402,67 @@ nav.mobile  {
     display: none;
   }
 }
+
+/* Thesis section */
+.thesis-section {
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.columns {
+  margin: 0 1.5rem;
+  align-items: flex-start;
+}
+
+.left-column, .right-column {
+  flex-direction: column;
+  justify-content: flex-start;
+  width: auto;
+}
+
+.left-column h3 {
+  margin: 1.5rem 0;
+}
+
+.right-column {
+  width: 26.5rem;
+}
+
+.thesis {
+  display: flex;
+  align-items: center;
+  height: 10.5rem;
+  width: 26.5rem;
+  padding: 1rem 0;
+}
+
+.thesis .image-container {
+  height: 9.75rem;
+  width: 9.75rem;
+  padding: 0 1rem 0 1rem;
+}
+
+.thesis .text {
+  flex: 2;
+}
+
+@media only screen and (max-width: 900px) {
+  .right-column, .left-column .text {
+    display: none;
+  }
+}
+
+/* footer section */
+footer {
+  justify-content: space-between;
+  padding: 1rem;
+  border-top: 1px solid rgb(184, 198, 207);
+  height: 5rem;
+}
+
+
+@media only screen and (max-width: 500px) {
+  footer nav {
+    display: none;
+  }
+}
